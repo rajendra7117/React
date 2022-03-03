@@ -1,0 +1,91 @@
+.main {
+  margin-top: 4rem;
+  max-width: auto;
+}
+.info {
+  width: auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+  height: 35rem;
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+.welcome-text {
+  align-self: center;
+}
+.welcome-text button {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #000;
+  color: aliceblue;
+  padding: 1.1rem;
+  font-size: 1.1rem;
+  border-radius: 0.3rem;
+  outline: none;
+  cursor: pointer;
+}
+.image-grid {
+  width: 48rem;
+  display: grid;
+  grid-template-columns: repeat(2, 4fr);
+  grid-template-rows: repeat(4, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.menu {
+  margin-top: 2rem;
+  width: auto;
+  height: 15rem;
+}
+.food-grid {
+  width: auto;
+  margin: 8rem auto;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .info{
+    font-size: 1.5rem;
+    padding: 1rem;
+    height: 760px;
+    align-items: center;
+   
+  } 
+  .image-grid{
+    width: 36rem;
+    align-items: center;
+    height: 400px;
+  }
+  .image-grid img{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  
+  .info{
+    font-size: 1rem;
+    align-items: center;
+    text-align: start;
+    height: 490px;
+    padding: 1rem;
+  }
+  .welcome-text{
+    text-align: center;
+    align-self:center;
+  }
+  .image-grid{
+    width: 17rem;
+    align-self: center;
+    height: 200px;
+  }
+  .image-grid img{
+    width: 100px;
+    height: 100px;
+  }
+}

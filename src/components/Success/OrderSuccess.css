@@ -1,0 +1,26 @@
+.order-success {
+  width: auto;
+  text-align: center;
+  font-size: large;
+  height: 9rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.order-success div {
+  margin-top: 2rem;
+  color: rgb(0, 255, 64);
+}
+.spinner{
+  margin: 1rem auto;
+}
+.order button {
+    margin: 1rem auto;
+  background-color: rgb(7, 207, 7);
+  color: #fff;
+  width: 5rem;
+  border: 1px solid rgb(7, 207, 7);
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+}

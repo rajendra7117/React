@@ -1,0 +1,57 @@
+.menu-box {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  padding: 1rem;
+}
+.menu-box div {
+  padding: 0.6rem;
+  border: 1px solid #fff;
+  border-radius: 20rem;
+  cursor: pointer;
+  transition: all 0.6s ease-in;
+}
+.menu-box div:hover {
+  background-color: #fff;
+  color: #000;
+}
+.foodItemsContainer {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .menu-box {
+    width: 100vw;
+
+    
+    
+  }
+}
+
+@media screen and (max-width: 850px) {
+    .menu-box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: .4rem;
+        grid-template-rows: auto;
+        width: auto;
+    }
+    
+
+}
+
+@media screen  and (max-width: 550px){
+    .menu-box{
+        grid-template-columns: auto;
+        width: 100vw;
+        gap: 1rem;
+    }
+    .menu-box div{
+        width: 18rem;
+        border-radius: .3rem;
+        
+    }
+}

@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  position: relative;
+  width: vmax;
+  height: 100vh;
+  overflow: auto;
+}
+
+/* 
+@media screen  and (max-width: 500px){
+  .App{
+    height: ;
+  }
+} */
