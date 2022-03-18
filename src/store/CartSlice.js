@@ -12,7 +12,7 @@ const cartSlice = createSlice({
   },
   reducers: {
     addToCart(state, action) {
-      console.log(typeof action.payload.price)
+    
       if (state.cartItems.length <= 0) {
         state.cartItems = [...state.cartItems, action.payload];
 
